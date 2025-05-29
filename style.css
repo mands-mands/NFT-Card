@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: outfit;
+    width: 100%;    
+    height: 100vh;
+    background-color:  hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 300px;
+    height: 500px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.descricao {
+    margin: auto 20px;  
+}
+
+.descricao2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    display: flex;
+    margin: 15px 20px;
+    align-items: center;
+    gap: 10px;
+}
+#avatar {
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+}
+
+hr {
+    margin: 15px 20px;
+    border-color: hsl(215, 32%, 27%);
+}
